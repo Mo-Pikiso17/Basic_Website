@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/my-webpage-grid.css">
+    <style>
+
+    body {
+    /* you can use a more complete font-family from VSCode as well */
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 1em; */
+}
+
+*{
+    box-sizing: border-box;
+}
+
+        .name{
+            background:white;
+            text-align: center;
+            margin-top: 60px;
+            color: black;
+        }
+
+        .lake{
+            margin-top: 4px;
+            margin-bottom: 5px;
+            width: 50%;
+            
+        }
+
+        .lake img {
+            width: 100%;
+        }
+        .K{
+            padding-right: 50px;
+            padding: 1em;
+            width: 50%;
+            margin-bottom: 30px;
+        }
+
+        table,tr,td{
+            border: 1px solid violet;
+            align-content: center;
+        }
+
+        .langauge{
+            padding-top:50px; 
+        }
+.CITY {
+    display: flex;
+    width: 100%;
+}
+        h1{
+            background: purple;
+            color:wheat;
+            text-align: center;
+        }
+        h3{
+            text-align:center;
+        }
+
+       
+
+
+@media screen and (max-width: 360px){
+
+    body{
+        align-content: center;
+    }
+
+    .col-12 .personal_info{
+        display: block;
+        width: 100%;
+        align-content: center;
+        /* clear: left;
+        display: block;
+        padding: 1em;
+        width: 100%;
+        text-align: center;
+        align-content: center; */
+    }
+
+    .TM img{
+       
+        width: 100%;
+        margin: auto;
+        align-content: center;
+    }
+
+    .lake{
+        width: 100%;
+        align-content: center;
+    }
+
+    .city .CITY{
+        display: block;
+        width:100%;
+        align-content: center;
+
+    }  
+}
+
+    @media screen and (max-width: 720px){
+        
+        .CITY{
+        display: flex;
+        /* width:100%; */
+    }
+
+    } 
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+        <!--The first container-->
+        <div class="row">
+            <div class="col-12" class= "personal_info">
+                <div class="col-6">
+                    <h1 class="name" >MODDY PIKISO</h1>
+                </div>
+
+                <div class="col-6 TM">
+                    <img src="../Images/TM.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+        <!--The second container-->
+        <div class="row" class="Which_city">
+            <div class="col-12 city">
+                <h1>Which city?</h1>
+
+            <div class="col-12 CITY">
+                <div class="col-6 lake">
+                    <img src="../Images/Kigoma_Lake Tanganyika1.png" alt="">
+                </div>
+
+                <div class= "col-6" class="K">
+                    <h2 class="kigoma">Kigoma</h2>
+
+                    <p1 class="city_content">
+                        Kigoma is a city and lake port in northwestern Tanzania. I chose the city because it is
+                        surrounded by a water body in form of a lake.
+                    </p1>
+                </div>
+
+            </div>
+        </div>
+            
+        </div>
+
+        </div>
+        <!--The Table( third) container-->
+        <div class="row">
+
+            <div class="row">
+                <h1 class="Swahili">A foreign language</h1>
+
+
+                <p1 class="foreign_content">
+                    The foreign language that I would like to learn is Swahili. Firstly, it is an African language. In addition; I would like to visit both Tanzania and Zanibar where the langauge is widely spoken.
+                </p1>
+            </div>
+
+            <div class= "langauge" class="row">
+                <table>
+                    <tr>
+                        <th>English</th>
+                        <th>Swahili</th>
+                    </tr>
+                    <tr>
+                        <td>Hello! how are you?</td>
+                        <td>Habari! vipi wewe?</td>
+                    </tr>
+                    <tr>
+                        <td>I am good thank you and yourself?</td>
+                        <td>Mimi ni mzuri asante na wewe mwenyewe?</td>
+                    </tr>
+                    <tr>
+                        <td>I am great!</td>
+                        <td>Mimi ni mkuu!</td>
+                    </tr>
+                    <tr>
+                        <td>Where do you live?</td>
+                        <td>Unaishi wapi?</td>
+                    </tr>
+                    <tr>
+                        <td>I live in Zanibar</td>
+                        <td>Ninaishi Zanibar</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div>
+
+
+
+            <!--Fourth Container--->
+            <div>
+                <h1 class="row">Historical Places in Cape Town</h1>
+            </div>
+            <div class="row historical">
+
+                
+                <div class="col-4-sm">
+
+                    <h3 class="CH">City Hall</h3>
+
+                    <div class="places">
+                       
+                        <ul class="list">
+                            <li>Cape Town City Hall is a large Edwardian building in Cape Town city centre.</li>
+                            <li>It was on the same spot where he made a speech when he was released from prison on 11 February 1990.</li>
+                            <li>On 24 July 2018, a statue of Nelson Mandela on the balcony overlooking the Grand Parade was unveiled. </li>
+                        </ul>
+
+                        <img class="CH_MP left" src="../Images/City Hall_MP1.png" alt="">
+                    </div>
+                </div>
+
+                
+                <div class="col-4-sm">
+                    
+                    <h3 class="DSM">Distirct Six Museum</h3>
+
+                    <div class="places">
+
+                        <ul class="text"> 
+                            <li >District Six before its destruction under Apartheid, was a community representative of diversity across the spectrum.</li>
+                            <li>The Museum which was launched on 10 December 1994.</li>
+                            <li>District Six represented the polar opposite of what the Apartheid government needed people to believe and internalise.</li>
+                        </ul>
+
+                        <img class="D6 left" src="../Images/D6 Museum1.png" alt="">
+
+                    </div>
+
+                </div>
+
+                
+                <div class="col-4-sm">
+
+                    <h3 class="CGH">Castle of Good Hope</h3>
+                
+                    <div class="places">
+                    
+                        <ul class="list" >
+                            <li>The Castle of Good Hope is known locally as "The Castle".</li>
+                            <li>The Castle was declared a historical monument (now a provincial heritage site) in 1936.</li>
+                            <li> It is considered the best preserved example of a 17th century architectural structure in the entire world. </li>
+                        </ul>
+
+                        <img class="CGH_MP left" src="../Images/Castle GH1.png" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>

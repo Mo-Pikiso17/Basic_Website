@@ -1,0 +1,154 @@
+
+body{
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+    color:antiquewhite;
+    line-height: 1.6;
+    margin: 30px;
+    
+
+}
+
+body{
+    height: 100%;
+}
+
+body{
+    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* button{
+    font-size: larger;
+    text-align: center;
+    position: center;
+    display: flex;
+    flex-direction: row;
+
+} */
+
+.content{
+    width: 100%;
+    text-align: center;
+
+}
+
+.welcome{
+    display: 4;
+    font-weight:bold; 
+    color: white ; 
+    font-size: 60px; 
+    /* padding-left: 500px; */
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+    padding: 200px;
+}
+
+/* .f{
+    display: flex;
+} */
+
+.page{
+    display: flex;
+    width: 100%;
+}
+
+.B{
+    /* display: block; */
+    width: 60%;
+    margin: 100px;
+
+}
+
+button {
+    width: 250px;
+    /* margin: auto; */
+    padding: 15px;
+    margin-left: 150px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color:  rgb(59, 180, 255);
+    border: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content p{
+    background-color: rgba(0, 0, 0, 0.507);
+    font-size: 20px;
+    /* font-weight: bold; */
+    text-align: left;
+
+}
+
+.image{
+    width: 36.5%;
+    /* border: 7px solid rgba(135, 206, 250, 0.596);
+    border-radius: 20px;
+    border-width: 36.5%; */
+}
+
+@media screen and (min-width: 360px){
+
+    .page{
+        display: flex;
+        width: 100%;
+        padding: 1em;
+    }
+
+    .B{
+        align-content: center;
+    }
+
+
+    /* .border{
+        width: 50%;
+    } */
+
+    .content{
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 360px){
+
+    body{
+        width: 100%;
+    }
+
+    .page{
+        display: flex;
+        width: 100%;
+        padding: 1em;
+    }
+
+    image{
+        width:40%;
+    }
+
+    .B{
+        width: 60%;
+        align-content: center;
+    }
+
+
+
+}
+
