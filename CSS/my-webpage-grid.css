@@ -212,9 +212,10 @@ p {
     display: block;
   }
   .places {
-    width: 600px;
-    /* width: 100%; */
-    margin: auto;
+    /* width: 600px; */
+    width: 100%;
+    padding-right: 30px;
+    /* margin: auto; */
   }
 
   .places .D6_left{
@@ -226,7 +227,45 @@ p {
 }
 
 .DSM{
-  text-align: right;
+  text-align: left;
+}
+
+.CH{
+  text-align: left;
+  padding-left: 30px;
+}
+
+.CGH{
+  text-align: left;
+}
+
+.CHS{
+  align-content: justify;
+  margin-top: -5px;
+  text-align: justify;
+  margin-right: 20px;
+
+  
+}
+
+.text{
+  text-align: justify;
+  align-content: justify;
+  margin-top: -5px;
+  margin-left: 20px;
+}
+
+.CGHS{
+  align-content: justify;
+  margin-top: -10px;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+
+
+.left img{
+  margin-bottom: 100px;
 }
 
   .name{
@@ -236,12 +275,33 @@ p {
     padding-left: 15px;
   }
 
-  .K{
-    display: block;
-    width: 100%;
-    text-align: justify;
-    margin: auto;
+  /* .TM img{
+    width: 75%;
+    padding-left: 80px;
+    text-align: center;
+  } */
+
+  .TM{
+    width: 100%; 
+    text-align: center;
+    padding-right: 30px;
+
 }
+
+.TM img{
+    width: 60%;
+}
+
+.city .CITY {
+  display: block;
+  width: 100%;
+  
+}
+
+.lake img{
+  width: 100%;
+}
+
 }
 
 @media only screen and (min-width: 45em) {  /* 720px */

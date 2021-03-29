@@ -46,6 +46,10 @@
             align-content: center;
         }
 
+        table{
+            width: 100%;
+        }
+
         .langauge{
             padding-top:50px; 
         }
@@ -59,58 +63,18 @@
             text-align: center;
         }
         h3{
-            text-align:center;
+            text-align:left;
         }
 
-       
+        .text {
+            padding: 2px;
+            margin-top: -5px;
+        }
 
-
-@media screen and (max-width: 360px){
-
-    body{
-        align-content: center;
-    }
-
-    .col-12 .personal_info{
-        display: block;
-        width: 100%;
-        align-content: center;
-        /* clear: left;
-        display: block;
-        padding: 1em;
-        width: 100%;
-        text-align: center;
-        align-content: center; */
-    }
-
-    .TM img{
-       
-        width: 100%;
-        margin: auto;
-        align-content: center;
-    }
-
-    .lake{
-        width: 100%;
-        align-content: center;
-    }
-
-    .city .CITY{
-        display: block;
-        width:100%;
-        align-content: center;
-
-    }  
-}
-
-    @media screen and (max-width: 720px){
-        
-        .CITY{
-        display: flex;
-        /* width:100%; */
-    }
-
-    } 
+        .list{
+            padding: 2px;
+            margin-top: -5px;
+        }
 
     </style>
     <title>Document</title>
@@ -133,21 +97,23 @@
 
         <!--The second container-->
         <div class="row" class="Which_city">
-            <div class="col-12 city">
+
+            <div class="row city">
                 <h1>Which city?</h1>
 
             <div class="col-12 CITY">
+
                 <div class="col-6 lake">
-                    <img src="../Images/Kigoma_Lake Tanganyika1.png" alt="">
+                    <img src="../Images/Kigoma_Lake Tanganyika1.png" alt="" class="pic_lake">
                 </div>
 
                 <div class= "col-6" class="K">
                     <h2 class="kigoma">Kigoma</h2>
 
-                    <p1 class="city_content">
+                    <p class="city_content">
                         Kigoma is a city and lake port in northwestern Tanzania. I chose the city because it is
                         surrounded by a water body in form of a lake.
-                    </p1>
+                    </p>
                 </div>
 
             </div>
@@ -215,7 +181,7 @@
 
                     <div class="places">
                        
-                        <ul class="list">
+                        <ul class="list CHS">
                             <li>Cape Town City Hall is a large Edwardian building in Cape Town city centre.</li>
                             <li>It was on the same spot where he made a speech when he was released from prison on 11 February 1990.</li>
                             <li>On 24 July 2018, a statue of Nelson Mandela on the balcony overlooking the Grand Parade was unveiled. </li>
@@ -251,7 +217,7 @@
                 
                     <div class="places">
                     
-                        <ul class="list" >
+                        <ul class="list CGHS" >
                             <li>The Castle of Good Hope is known locally as "The Castle".</li>
                             <li>The Castle was declared a historical monument (now a provincial heritage site) in 1936.</li>
                             <li> It is considered the best preserved example of a 17th century architectural structure in the entire world. </li>
